@@ -1,7 +1,8 @@
-use crate::preprocessing::load_image;
-
 mod preprocessing;
+use preprocessing::process_image_example;
 
 fn main() {
-    load_image(path: "../Stanford_Car_Dataset/cars_test/cars_test/00001.jpg", (100,100))
+    process_image_example();
 }
+
+
