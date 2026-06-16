@@ -5,3 +5,6 @@ edition = "2024"
 
 [dependencies]
 candle-core = "0.10.2"
+candle-nn = "0.10.2"
+image = "0.25.10"
+matfile = "0.5.0"
